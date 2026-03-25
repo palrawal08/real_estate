@@ -13,6 +13,10 @@ data = {
 
 df = pd.DataFrame(data)
 
+
+
+
+
 X = df[['Area', 'Bedrooms', 'Bathrooms', 'Age']]
 y = df['Price']
 
